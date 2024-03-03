@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/pxfuel.jpg);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.section input {
+  margin: 50px;
+}
+.section .text {
+  text-align: center;
+  margin: 90px;
+}
+.section .text h1 {
+  font-size: 130px;
+  color: #fa0557;
+  padding-bottom: 120px;
+}
+.section .text h3 {
+  font-size: 50px;
+  color: #f7f8f8;
+}
+.section .text button {
+  font-size: 30px;
+  border-radius: 20px;
+  background-color: #43499c;
+  margin: 50px;
+  padding: 10px;
+}
+.section .music {
+  font-size: 40px;
+  display: flex;
+  gap: 50px;
+}
+.section .music a .fa-solid {
+  color: rgb(255, 255, 255);
+}
+.section .music a .fa-solid a::hover {
+  background-color: #ccc;
+}/*# sourceMappingURL=style.css.map */
